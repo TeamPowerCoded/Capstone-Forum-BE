@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: gamingforum
+  servlet:
+    multipart:
+      max-file-size: 50MB
+
+# S3 Config
+s3:
+  accessKey: AKIA5SKTAWCKA3BR6NUK
+  secretKey: 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
+  bucketName: 062289
